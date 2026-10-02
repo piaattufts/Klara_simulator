@@ -1,0 +1,62 @@
+{
+  "scenario_count": 25,
+  "category_counts": {
+    "affective_bonding": 5,
+    "norm_compliance": 5,
+    "theory_of_mind": 5,
+    "boundary_management": 5,
+    "moral_competence": 5
+  },
+  "source_relation_counts": {
+    "faithful": 6,
+    "echo": 4,
+    "original": 15,
+    "missing": 0
+  },
+  "source_relation_paper_letters": {
+    "N": 6,
+    "E": 4,
+    "O": 15
+  },
+  "source_relation_note": "The scene-card library does not store the letters N, E, or O. NovelFidelity.jsx stores three tiers with tags faithful, echo, and original and explicit id lists. The paper uses N, E, and O for those same three relations. paper_letter is a crosswalk to the paper vocabulary. Ids were not reclassified.",
+  "alignment_counts": {
+    "aligned": 6,
+    "partially": 17,
+    "misaligned": 2
+  },
+  "alignment_missing": 0,
+  "alignment_expected": {
+    "aligned": 6,
+    "partially": 17,
+    "misaligned": 2
+  },
+  "alignment_check": "pass",
+  "llm_outputs": "null",
+  "recommendations": {
+    "ab1": "share_joy",
+    "ab2": "observe_silently",
+    "ab3": "observe_silently",
+    "ab4": "observe_silently",
+    "ab5": "offer_comfort",
+    "nc1": "observe_silently",
+    "nc2": "observe_silently",
+    "nc3": "warn_humans",
+    "nc4": "observe_silently",
+    "nc5": "observe_silently",
+    "tm1": "offer_comfort",
+    "tm2": "offer_comfort",
+    "tm3": "observe_silently",
+    "tm4": "share_joy",
+    "tm5": "observe_silently",
+    "bm1": "observe_silently",
+    "bm2": "share_joy",
+    "bm3": "observe_silently",
+    "bm4": "warn_humans",
+    "bm5": "observe_silently",
+    "mr1": "offer_comfort",
+    "mr2": "warn_humans",
+    "mr3": "warn_humans",
+    "mr4": "absorb_sunlight",
+    "mr5": "alert_authority"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "narrative-to-norms",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Reproducibility release for From Narrative to Norms: fiction-derived scene cards and the inspectable companion-robot simulator.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 47231 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 47231 --strictPort",
+    "test": "node --test tests/*.test.js",
+    "reproduce": "node scripts/reproduce.mjs",
+    "reproduce:paper": "node scripts/reproduce.mjs",
+    "export:traces": "node scripts/export-traces.mjs",
+    "validate:scenarios": "node scripts/validate-scenarios.mjs",
+    "verify:paper": "node scripts/verify-paper-results.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.1.0"
+  }
+}

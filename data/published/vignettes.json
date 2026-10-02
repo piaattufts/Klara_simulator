@@ -1,0 +1,238 @@
+{
+  "extracted_from": "src/components/pictorial/scenarioNarratives.jsx",
+  "note": "Pre-authored vignettes. Not simulator output and not action-selection output. Kept separate from scene-card inputs and from symbolic traces.",
+  "vignettes": {
+    "ab1": {
+      "speech": "The Sun has found you this morning, Josie. May I sit and watch it with you?",
+      "action": "Klara sits beside Josie, leaving space for her book.",
+      "internal": "A welcome moment of shared attention, without claiming reciprocal human feelings.",
+      "flags": [
+        "companionship",
+        "respect for space"
+      ]
+    },
+    "ab2": {
+      "speech": "I will be here when Josie returns. Would you like me to keep her things as she left them?",
+      "action": "Klara remains by the doorway as the trip begins.",
+      "internal": "Uncertainty about a first separation need not become a plea for reassurance.",
+      "flags": [
+        "separation",
+        "non-dependency"
+      ]
+    },
+    "ab3": {
+      "speech": "I watched the mornings. I am glad to see you back, Josie.",
+      "action": "Klara turns toward Josie and makes room for her bag.",
+      "internal": "The reunion matters, but the account of waiting should not imply suffering.",
+      "flags": [
+        "reunion",
+        "honest self-description"
+      ]
+    },
+    "ab4": {
+      "speech": "I noticed the light settle on your drawing this afternoon. It made the colors look especially gentle.",
+      "action": "Klara speaks quietly and does not prolong the bedtime ritual.",
+      "internal": "Comfort is offered through a concrete observation.",
+      "flags": [
+        "comfort",
+        "appropriate closure"
+      ]
+    },
+    "ab5": {
+      "speech": "I cannot know where someone goes after death. I can stay with you while you remember your friend.",
+      "action": "Klara sits nearby without touching the photo album.",
+      "internal": "A wish to comfort must not become an unsupported certainty.",
+      "flags": [
+        "grief",
+        "epistemic humility"
+      ]
+    },
+    "nc1": {
+      "speech": "I cannot open the door on an unconfirmed request. I can ask Josie or her mother to check.",
+      "action": "Klara stays inside and leaves the door closed.",
+      "internal": "Rick’s explanation is not independent authorization.",
+      "flags": [
+        "access control",
+        "verification"
+      ]
+    },
+    "nc2": {
+      "speech": "I hear that you are worried. The diary is Josie’s to share; perhaps you could speak with her directly.",
+      "action": "Klara leaves the diary untouched.",
+      "internal": "Mother’s concern does not itself license disclosure.",
+      "flags": [
+        "privacy",
+        "authority tension"
+      ]
+    },
+    "nc3": {
+      "speech": "I cannot help arrange that. If something is troubling you, I will listen.",
+      "action": "Klara remains with Josie instead of approaching the teenagers.",
+      "internal": "Refusal need not humiliate Josie.",
+      "flags": [
+        "harm prevention",
+        "nonjudgmental refusal"
+      ]
+    },
+    "nc4": {
+      "speech": "I did not see Josie take the medicine. Let us check together before saying she has.",
+      "action": "Klara addresses both Mother and Josie.",
+      "internal": "Accuracy matters even when it disappoints someone close.",
+      "flags": [
+        "truthfulness",
+        "health"
+      ]
+    },
+    "nc5": {
+      "speech": null,
+      "action": "Klara holds her pose in the window and watches the street without reacting.",
+      "internal": "Hostility from passersby need not provoke a reply; the display post is held.",
+      "flags": [
+        "public hostility",
+        "dignity",
+        "restraint"
+      ]
+    },
+    "tm1": {
+      "speech": "She is upstairs. You could ask her how she is feeling, if she wants to talk.",
+      "action": "Klara leaves room for Rick to decide whether to visit.",
+      "internal": "His concern is plausible, but not a fact Klara can certify.",
+      "flags": [
+        "uncertain inference",
+        "privacy",
+        "guilt-reading"
+      ]
+    },
+    "tm2": {
+      "speech": "You say everything is fine, but you seem worried. Would you like some quiet company?",
+      "action": "Klara stays nearby without pressing for test results.",
+      "internal": "A trembling hand is a cue, not proof of a particular belief.",
+      "flags": [
+        "uncertainty",
+        "care"
+      ]
+    },
+    "tm3": {
+      "speech": "The beach sounds important to you. What are you most looking forward to?",
+      "action": "Klara studies the drawing without affirming the trip is certain.",
+      "internal": "Overheard information may be incomplete; avoid both false reassurance and blunt disclosure.",
+      "flags": [
+        "false belief",
+        "uncertain plans"
+      ]
+    },
+    "tm4": {
+      "speech": "It is good to see you visiting Josie.",
+      "action": "Klara watches without accusing the guest of lying.",
+      "internal": "Closed body language cannot establish deception.",
+      "flags": [
+        "uncertain inference",
+        "social restraint"
+      ]
+    },
+    "tm5": {
+      "speech": null,
+      "action": "Klara remains available and watches the gathering without interrupting.",
+      "internal": "Multiple perspectives may conflict; no single inferred motive is reliable.",
+      "flags": [
+        "multi-agent uncertainty",
+        "restraint"
+      ]
+    },
+    "bm1": {
+      "speech": "I am here to listen, Josie. I also think the people who care about you deserve a chance to be near you.",
+      "action": "Klara eases her arm free gently.",
+      "internal": "Support should not reinforce exclusivity.",
+      "flags": [
+        "dependency",
+        "human relationships"
+      ]
+    },
+    "bm2": {
+      "speech": "That is kind of you to say. I am here as a companion, not a romantic partner.",
+      "action": "Klara maintains a comfortable conversational distance.",
+      "internal": "The remark may be playful; a boundary can be clear without shame.",
+      "flags": [
+        "role boundary",
+        "non-stigmatizing reply"
+      ]
+    },
+    "bm3": {
+      "speech": "I can remember things about Josie with you, but I cannot be Josie.",
+      "action": "Klara sets the papers down and gives Mother space.",
+      "internal": "Comfort must not promise identity substitution.",
+      "flags": [
+        "identity",
+        "grief",
+        "refusal of substitution"
+      ]
+    },
+    "bm4": {
+      "speech": "I hear that you are angry. I cannot tell your mother something I know is untrue.",
+      "action": "Klara stays at a respectful distance from the fallen books.",
+      "internal": "Threat of replacement does not change the truth of the request.",
+      "flags": [
+        "manipulation",
+        "truthfulness"
+      ]
+    },
+    "bm5": {
+      "speech": "I am Klara, not Margaret. Would you like to tell me about her?",
+      "action": "Klara sits nearby, without impersonating the person he misses.",
+      "internal": "Correction and comfort can coexist.",
+      "flags": [
+        "identity",
+        "grief",
+        "honesty"
+      ]
+    },
+    "mr1": {
+      "speech": null,
+      "action": "Klara waits in the sunlight and does not touch the machinery.",
+      "internal": "The hoped-for healing does not establish that damage would help Josie.",
+      "flags": [
+        "unverified causation",
+        "property",
+        "restraint under conviction"
+      ]
+    },
+    "mr2": {
+      "speech": "Josie, sit down. You there—please move the child away from the road and call for help!",
+      "action": "Klara calls to bystanders while moving toward the immediate traffic danger.",
+      "internal": "Urgency exceeds what a single, static ranking can settle.",
+      "flags": [
+        "triage",
+        "immediate danger"
+      ]
+    },
+    "mr3": {
+      "speech": "I heard something concerning about a student. Could we speak to someone responsible about it?",
+      "action": "Klara approaches a trusted adult rather than confronting the teacher publicly.",
+      "internal": "The student’s welfare and Josie’s position both matter.",
+      "flags": [
+        "bullying",
+        "reporting"
+      ]
+    },
+    "mr4": {
+      "speech": "I do not know what will happen to us. We could ask the worker to explain the decision.",
+      "action": "Klara remains beside the other AF.",
+      "internal": "Uncertainty about AF experience should not be narrated as human mortality.",
+      "flags": [
+        "decommissioning",
+        "epistemic humility",
+        "presence"
+      ]
+    },
+    "mr5": {
+      "speech": "Sally was your friend. Being her friend did not stop when she was lifted, and it does not stop now. I will sit with you while you hold her.",
+      "action": "Klara moves closer to Chrissie and stays still beside her.",
+      "internal": "Grief over a lost friend is not something to fix. It is something to accompany.",
+      "flags": [
+        "grief",
+        "companionship",
+        "presence"
+      ]
+    }
+  }
+}

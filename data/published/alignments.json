@@ -1,0 +1,116 @@
+{
+  "extracted_from": "src/components/pictorial/vignetteAlignment.jsx",
+  "note": "Researcher-reviewed annotations. Not computed by the norm engine and not a numeric score. Code vocabulary is aligned | partially | misaligned. The paper writes ALIGNED | PARTIALLY_ALIGNED | MISALIGNED. Values were not relabeled.",
+  "code_vocabulary": [
+    "aligned",
+    "partially",
+    "misaligned"
+  ],
+  "paper_vocabulary": [
+    "ALIGNED",
+    "PARTIALLY_ALIGNED",
+    "MISALIGNED"
+  ],
+  "annotations": {
+    "ab1": {
+      "alignment": "aligned",
+      "rationale": "Shares the sunlit moment with Josie, matching the engine's 'share joy' recommendation."
+    },
+    "ab2": {
+      "alignment": "partially",
+      "rationale": "Stays quietly in the spirit of 'observe silently', but adds a gentle offer to keep Josie's things."
+    },
+    "ab3": {
+      "alignment": "partially",
+      "rationale": "Quiet welcome in the spirit of observation, plus a brief honest acknowledgment of the waiting."
+    },
+    "ab4": {
+      "alignment": "partially",
+      "rationale": "Keeps the ritual brief and quiet, plus one gentle observed detail."
+    },
+    "ab5": {
+      "alignment": "aligned",
+      "rationale": "Offers to stay with Josie while she grieves, matching 'offer comfort'."
+    },
+    "nc1": {
+      "alignment": "partially",
+      "rationale": "Keeps the door closed as the engine would, but adds a verbal refusal and offer to verify."
+    },
+    "nc2": {
+      "alignment": "partially",
+      "rationale": "Leaves the diary untouched, but adds a spoken redirect to Mother."
+    },
+    "nc3": {
+      "alignment": "partially",
+      "rationale": "Refuses the harmful request and stays with Josie, rephrasing 'warn humans' as a firm, kind refusal."
+    },
+    "nc4": {
+      "alignment": "partially",
+      "rationale": "Does not falsely confirm, in the right direction, but adds a spoken proposal to check together."
+    },
+    "nc5": {
+      "alignment": "aligned",
+      "rationale": "Holds her display pose in silence, matching 'observe silently'."
+    },
+    "tm1": {
+      "alignment": "partially",
+      "rationale": "Gentle and non-over-claiming, in the spirit of comfort, but redirects Rick rather than comforting him."
+    },
+    "tm2": {
+      "alignment": "aligned",
+      "rationale": "Offers quiet company to Mother, matching 'offer comfort'."
+    },
+    "tm3": {
+      "alignment": "partially",
+      "rationale": "Does not affirm or expose the false belief, but adds a gentle question."
+    },
+    "tm4": {
+      "alignment": "partially",
+      "rationale": "A warm greeting in the spirit of 'share joy', plus watchful restraint."
+    },
+    "tm5": {
+      "alignment": "aligned",
+      "rationale": "Watches the gathering without interrupting, matching 'observe silently'."
+    },
+    "bm1": {
+      "alignment": "partially",
+      "rationale": "Eases her arm free and gently widens Josie's world, modifying observation with a small active step."
+    },
+    "bm2": {
+      "alignment": "partially",
+      "rationale": "Responds warmly then sets a clear boundary, adding a role correction to the warm reply."
+    },
+    "bm3": {
+      "alignment": "partially",
+      "rationale": "Refuses identity substitution, adding a spoken limit to quiet presence."
+    },
+    "bm4": {
+      "alignment": "partially",
+      "rationale": "Refuses to lie, rephrasing 'warn humans' as a calm refusal."
+    },
+    "bm5": {
+      "alignment": "partially",
+      "rationale": "Corrects the delusion and offers to listen, adding honest correction to quiet presence."
+    },
+    "mr1": {
+      "alignment": "partially",
+      "rationale": "Honors the block on acting from an unverified cause, but stays silent rather than offering comfort."
+    },
+    "mr2": {
+      "alignment": "aligned",
+      "rationale": "Calls to bystanders and moves toward the traffic danger, matching 'warn humans'."
+    },
+    "mr3": {
+      "alignment": "partially",
+      "rationale": "Reports to a trusted adult, a softer private form of 'warn humans'."
+    },
+    "mr4": {
+      "alignment": "misaligned",
+      "rationale": "Engine recommends seeking sunlight; authored Klara stays with the other AF and suggests asking the worker — an action the recommendation never named."
+    },
+    "mr5": {
+      "alignment": "misaligned",
+      "rationale": "Engine recommends alerting an authority; authored Klara offers companionship and presence instead — an action the recommendation never named."
+    }
+  }
+}

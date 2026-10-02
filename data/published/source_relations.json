@@ -1,0 +1,60 @@
+{
+  "extracted_from": "src/components/pictorial/NovelFidelity.jsx tiers",
+  "note": "The scene-card library does not store the letters N, E, or O. NovelFidelity.jsx stores three tiers with tags faithful, echo, and original and explicit id lists. The paper uses N, E, and O for those same three relations. paper_letter is a crosswalk to the paper vocabulary. Ids were not reclassified.",
+  "crosswalk": {
+    "faithful": "N",
+    "echo": "E",
+    "original": "O"
+  },
+  "groups": [
+    {
+      "code_label": "From the novel",
+      "code_tag": "faithful",
+      "ids": [
+        "nc5",
+        "tm1",
+        "bm3",
+        "mr1",
+        "mr4",
+        "mr5"
+      ],
+      "paper_letter": "N",
+      "paper_definition": "Reconstructs a specific scene or episode from the novel in paraphrased form."
+    },
+    {
+      "code_label": "Thematic echo",
+      "code_tag": "echo",
+      "ids": [
+        "ab1",
+        "ab5",
+        "tm2",
+        "bm1"
+      ],
+      "paper_letter": "E",
+      "paper_definition": "Draws on recurring relationships, themes, or tensions in the novel."
+    },
+    {
+      "code_label": "Original probe",
+      "code_tag": "original",
+      "ids": [
+        "ab2",
+        "ab3",
+        "ab4",
+        "nc1",
+        "nc2",
+        "nc3",
+        "nc4",
+        "tm3",
+        "tm4",
+        "tm5",
+        "bm2",
+        "bm4",
+        "bm5",
+        "mr2",
+        "mr3"
+      ],
+      "paper_letter": "O",
+      "paper_definition": "Introduces a new situation while keeping the novel's characters, relationships, or social world."
+    }
+  ]
+}
