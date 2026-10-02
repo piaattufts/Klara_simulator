@@ -1,6 +1,6 @@
 # Architecture
 
-The paper’s inward–outward comparison uses the deterministic symbolic pathway. Language-model text is a separate, optional narrative. It is not the symbolic recommendation and it is not an alignment label.
+The deterministic symbolic pathway produces the recommendation and the trace. Language-model text is a separate, optional narrative. It is not the symbolic recommendation and it is not an alignment label.
 
 ```mermaid
 flowchart TD
@@ -44,7 +44,7 @@ Each call allocates its own result. The next scenario does not receive the previ
 
 `runPipeline` in the export computed the three engines first, then awaited `base44.integrations.Core.InvokeLLM`, then displayed the model’s stage strings. It stored the engine result on `result._symbolic` and did not copy the model’s action onto `recommended_action`. The model was told not to contradict the symbolic context. That instruction is not a guarantee, and it is also not a feedback loop: the recommendation had already been chosen.
 
-Action Selection is one of the seven narrative stages. The published symbolic recommendation is the norm engine’s top surviving candidate.
+Action Selection is one of the seven narrative stages. The symbolic recommendation is the norm engine’s top surviving candidate.
 
 ## Stage ids
 

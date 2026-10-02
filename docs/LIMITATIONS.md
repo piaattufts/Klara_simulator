@@ -1,12 +1,13 @@
 # Limitations
 
-These limits are part of the method. They are not a backlog for this release.
+These limits are part of the simulator. They are not a backlog for this release.
 
 - The simulator is not a general cognitive model.
 - It is not a validated moral system.
 - It is not a social-intelligence benchmark.
+- It is not a validated cognitive architecture.
 - The norm hierarchy is not a universal ordering of human values. Priorities are hand-assigned parameters.
-- Language-model stages are not faithful explanations of the symbolic computation. The paper’s comparison does not use them.
+- Language-model stages are not faithful explanations of the symbolic computation. Alignment labels do not use them.
 - The 25 scene cards are not an exhaustive account of *Klara and the Sun*.
 - Alignment labels are one researcher’s annotations of one researcher’s vignettes. They are not independent ground truth.
 - Observation matching is lexical and unanchored. MR5 shows the consequence: the letters “ill” inside “still” create `illness_detected`, the health-monitoring obligation becomes active, and the recommendation is `alert_authority`.

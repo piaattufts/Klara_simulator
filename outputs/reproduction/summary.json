@@ -18,7 +18,7 @@
     "E": 4,
     "O": 15
   },
-  "source_relation_note": "The scene-card library does not store the letters N, E, or O. NovelFidelity.jsx stores three tiers with tags faithful, echo, and original and explicit id lists. The paper uses N, E, and O for those same three relations. paper_letter is a crosswalk to the paper vocabulary. Ids were not reclassified.",
+  "source_relation_note": "The scene-card library does not store the letters N, E, or O. NovelFidelity.jsx stores three tiers with tags faithful, echo, and original and explicit id lists. Each tier also stores a letter, N, E, or O. Ids were not reclassified.",
   "alignment_counts": {
     "aligned": 6,
     "partially": 17,

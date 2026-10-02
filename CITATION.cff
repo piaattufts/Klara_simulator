@@ -1,13 +1,6 @@
 cff-version: 1.2.0
-title: "From Narrative to Norms: Fiction-Derived Scenarios for Inspectable Companion-Robot Evaluation"
+title: Klara simulator
 authors:
   - family-names: TODO
     given-names: TODO
-doi: TODO
-url: TODO
-journal: TODO
-volume: TODO
-issue: TODO
-year: TODO
-date-released: TODO
-message: "Publication metadata was not in the source export. Replace every TODO. Do not treat this file as a completed citation."
+message: "Software citation for this repository. Author, DOI, and URL are not set. No venue is recorded."

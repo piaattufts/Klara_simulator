@@ -1,6 +1,6 @@
 {
   "extracted_from": "src/components/simulator/ScenarioPanel.jsx export scenarioCategories",
-  "note": "VISUAL, DIALOGUE, and CONTEXT are stored as separate fields. Empty dialogue is an authored empty string, not a missing value. Identifiers are lowercase as in the source. The paper cites the same cards as AB1–MR5.",
+  "note": "VISUAL, DIALOGUE, and CONTEXT are stored as separate fields. Empty dialogue is an authored empty string, not a missing value. Identifiers are lowercase as in the source.",
   "categories": [
     {
       "id": "affective_bonding",

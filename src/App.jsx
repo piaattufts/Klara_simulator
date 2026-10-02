@@ -93,7 +93,7 @@ export default function App() {
       <header className="border-b border-stone-300 bg-stone-900 text-stone-100">
         <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6">
           <p className="text-xs uppercase tracking-[0.18em] text-amber-200/80">Inspectable companion-robot simulator</p>
-          <h1 className="mt-1 font-serif text-3xl sm:text-4xl">From Narrative to Norms</h1>
+          <h1 className="mt-1 font-serif text-3xl sm:text-4xl">Klara simulator</h1>
           <p className="mt-3 max-w-3xl text-sm leading-relaxed text-stone-300">
             Twenty-five scene cards, kept as separate visual, dialogue, and context fields, run through the
             deterministic belief, affect, and norm engines. Alignment labels are stored researcher annotations.
@@ -194,7 +194,7 @@ export default function App() {
               <div className="mt-2 space-y-2 text-xs">
                 <p><span className="font-semibold">Recommendation.</span> <span className="font-mono">{trace.symbolic_recommendation.action}</span> score {trace.symbolic_recommendation.norm_score}</p>
                 <p><span className="font-semibold">Stored alignment.</span> {trace.published_alignment ?? "not stored for this input"}</p>
-                <p><span className="font-semibold">Source relation.</span> {trace.source_relation ?? "not stored"} {trace.source_relation_paper_letter ? `(paper letter ${trace.source_relation_paper_letter})` : ""}</p>
+                <p><span className="font-semibold">Source relation.</span> {trace.source_relation ?? "not stored"} {trace.source_relation_paper_letter ? `(letter ${trace.source_relation_paper_letter})` : ""}</p>
                 <p><span className="font-semibold">Observations.</span> {trace.observations.map((o) => o.id).join(", ") || "none"}</p>
                 <p><span className="font-semibold">Affect.</span> caution {trace.affect.posterior.caution}; {trace.affect.discrete_emotions.join(", ")}</p>
                 <p><span className="font-semibold">Blocked.</span> {trace.blocked_candidates.join(", ") || "none"}</p>

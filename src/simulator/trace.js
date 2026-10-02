@@ -11,7 +11,7 @@ function omitTimestamp(observation) {
  * Observation timestamps from Date.now() are omitted so the exported JSON is
  * stable; they are not inputs to scoring.
  *
- * publishedAlignment and sourceRelation are attached from stored files when
+ * Stored alignment and source relation are attached from stored files when
  * the caller has them. They are not computed here.
  */
 export function buildTrace(scenario, symbolic, extras = {}) {

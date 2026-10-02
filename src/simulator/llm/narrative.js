@@ -4,8 +4,8 @@
  * it onto symbolic_recommendation, alignment labels, or the deterministic trace.
  *
  * The original simulator called base44.integrations.Core.InvokeLLM after the
- * symbolic engines and did not name a model. The paper text refers to a GPT-5
- * API. This release does not guess a model id: OPENAI_MODEL must be set.
+ * symbolic engines and did not name a model. This release does not guess a
+ * model id: OPENAI_MODEL must be set.
  */
 
 export function narrativeRequestAvailable(env = process.env) {
@@ -34,7 +34,7 @@ export async function requestNarrative(inputs, symbolic, env = process.env, fetc
       llm_outputs: null,
       reason: !env.OPENAI_API_KEY
         ? "OPENAI_API_KEY is not set. Symbolic reproduction does not need it."
-        : "OPENAI_MODEL is not set. The source InvokeLLM call does not name a model. The paper text refers to GPT-5; set OPENAI_MODEL explicitly to opt in.",
+        : "OPENAI_MODEL is not set. The source InvokeLLM call does not name a model. Set OPENAI_MODEL explicitly to opt in.",
     };
   }
   const response = await fetchImpl("https://api.openai.com/v1/chat/completions", {

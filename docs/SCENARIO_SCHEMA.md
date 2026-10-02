@@ -17,11 +17,11 @@ categories[]
     context           string, separate field
 ```
 
-The paper prints the same ids in uppercase.
+Identifiers in the data are lowercase.
 
 Category ids:
 
-| Code id | Paper name |
+| Code id | Label |
 |---|---|
 | affective_bonding | Affective Bonding |
 | norm_compliance | Norm Compliance |
@@ -37,7 +37,7 @@ These live beside the cards because they are not simulator inputs:
 
 - `data/published/vignettes.json` — pre-authored speech, action, internal note, and flags.
 - `data/published/alignments.json` — `aligned` | `partially` | `misaligned`, plus the source rationale sentence.
-- `data/published/source_relations.json` — `faithful` | `echo` | `original`, with a paper-letter crosswalk N | E | O.
+- `data/published/source_relations.json` — `faithful` | `echo` | `original`, with letters N | E | O.
 
 Empty dialogue on `tm5`, `mr1`, and `mr3` is the authored value.
 

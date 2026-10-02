@@ -3,7 +3,7 @@ import { runAffectEngine } from './symbolic/affectEngine.js';
 import { runNormEngine } from './symbolic/normEngine.js';
 
 /**
- * Ten-stage terminology from the paper. symbolic: true marks the three stages
+ * Ten-stage names used by the simulator. symbolic: true marks the three stages
  * that are local deterministic code. The other seven, including Action
  * Selection, are language-model narrative stages in the original design.
  *

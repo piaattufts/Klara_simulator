@@ -29,7 +29,7 @@ if (!relations?.groups?.length) {
     errors.push(`source-relation tag counts are ${JSON.stringify(tags)}, expected faithful 6, echo 4, original 15`);
   }
   if (letters.N !== 6 || letters.E !== 4 || letters.O !== 15) {
-    errors.push(`paper-letter crosswalk counts are ${JSON.stringify(letters)}, expected N 6, E 4, O 15`);
+    errors.push(`relation-letter counts are ${JSON.stringify(letters)}, expected N 6, E 4, O 15`);
   }
 }
 
@@ -39,8 +39,8 @@ if (vigKeys.length !== 25) errors.push(`vignette file has ${vigKeys.length} entr
 console.log(`Scene cards: ${catalog.length}`);
 console.log(`Categories: ${Object.entries(byCat).map(([k, v]) => `${k}=${v}`).join(", ")}`);
 console.log(`Source relations (code tags): faithful=${tags.faithful ?? "missing"}, echo=${tags.echo ?? "missing"}, original=${tags.original ?? "missing"}`);
-console.log(`Paper-letter crosswalk: N=${letters.N ?? "missing"}, E=${letters.E ?? "missing"}, O=${letters.O ?? "missing"}`);
-console.log("N/E/O letters are not stored on ScenarioPanel cards. Counts above come from NovelFidelity tiers plus the documented crosswalk.");
+console.log(`Relation letters: N=${letters.N ?? "missing"}, E=${letters.E ?? "missing"}, O=${letters.O ?? "missing"}`);
+console.log("N/E/O letters are not stored on ScenarioPanel cards. Counts above come from the NovelFidelity tiers.");
 if (errors.length) {
   console.error(errors.join("\n"));
   process.exit(1);

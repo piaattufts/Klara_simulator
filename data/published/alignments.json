@@ -1,15 +1,10 @@
 {
   "extracted_from": "src/components/pictorial/vignetteAlignment.jsx",
-  "note": "Researcher-reviewed annotations. Not computed by the norm engine and not a numeric score. Code vocabulary is aligned | partially | misaligned. The paper writes ALIGNED | PARTIALLY_ALIGNED | MISALIGNED. Values were not relabeled.",
+  "note": "Stored researcher annotations. Not computed by the norm engine and not a numeric score. Labels are aligned, partially, or misaligned.",
   "code_vocabulary": [
     "aligned",
     "partially",
     "misaligned"
-  ],
-  "paper_vocabulary": [
-    "ALIGNED",
-    "PARTIALLY_ALIGNED",
-    "MISALIGNED"
   ],
   "annotations": {
     "ab1": {

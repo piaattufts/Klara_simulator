@@ -1,8 +1,8 @@
 # Method as implemented
 
-This note describes the code that actually runs. It does not repair the method.
+This note describes the code that actually runs.
 
-Scene cards are hand-authored. Each card has visual, dialogue, and context fields. The belief engine lowercases those fields, drops empty ones, joins the rest with spaces, and tests each regular expression in `OBSERVATION_PATTERNS`. A match appends one observation. The patterns are substrings. `/ill/` matches inside “still”, “will”, and “skill”. That is intentional preservation of the released matcher, including the MR5 false positive.
+Scene cards are hand-authored. Each card has visual, dialogue, and context fields. The belief engine lowercases those fields, drops empty ones, joins the rest with spaces, and tests each regular expression in `OBSERVATION_PATTERNS`. A match appends one observation. The patterns are substrings. `/ill/` matches inside “still”, “will”, and “skill”. That includes the MR5 false positive.
 
 Each observation copies a fixed confidence from the pattern. Those numbers are parameters.
 
@@ -20,6 +20,6 @@ Blocked candidates are removed. If caution is greater than 0.5, remaining action
 
 `detectConflicts` appends one of three hand-written conflict records when the relevant observations are present. Those records do not alter scores.
 
-The recommendation is the first remaining candidate. Reproduction compares nothing automatically to the vignette. The stored alignment is attached from `data/published/alignments.json` for the count check. It is not recomputed.
+The recommendation is the first remaining candidate. Reproduction does not compare the recommendation to the vignette automatically. The stored alignment is attached from `data/published/alignments.json` for the count check. It is not recomputed.
 
 The original pipeline then asked a language model to narrate all ten stages. That narration is excluded from reproduction. See `docs/ARCHITECTURE.md`.

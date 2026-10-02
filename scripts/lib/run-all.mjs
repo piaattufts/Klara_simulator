@@ -7,14 +7,14 @@ import { loadCatalog } from "./load.mjs";
  * 2. Fresh SharedState inside each runScenarioIsolated call.
  * 3. Deterministic symbolic path only.
  * 4. One trace per scenario.
- * 5. Attach stored published alignment when present.
+ * 5. Attach the stored alignment when present.
  * Does not call a language model and does not read the environment.
  */
 export function reproduceAll() {
   const { catalog, alignments, relations } = loadCatalog();
   if (!alignments?.annotations || Object.keys(alignments.annotations).length === 0) {
     const error = new Error(
-      "Published alignment annotations are not in the source dataset. Refusing to count 6/17/2."
+      "Stored alignment annotations are not in the source dataset. Refusing to count 6/17/2."
     );
     error.code = "ALIGNMENTS_MISSING";
     throw error;
